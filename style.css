@@ -3,7 +3,7 @@
 body {
 	text-align: center;
 	color: #222;
-	font-family: Playfair, serif;
+	font-family: 'Playfair', serif;
 	font-size: 21px;
 }
 section {
@@ -14,9 +14,10 @@ nav, .logo {
 }
 nav {
 	float:right;
+	background-color: #E8C66A
 }
 .logo {
-	float:left;
+	float:le ft;
 }
 #intro {
 	background:url(../images/mars1_inspiration.jpg) no-repeat;
@@ -24,3 +25,81 @@ nav {
 	height: 90vh;
 	padding: 10em 0 0;
 }
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding 20 px
+}
+nav {
+	background-color: #E8C66A;s
+}
+
+aside {
+	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
+}
+footer {
+	background-color: #FF957E;
+}
+div/section {
+	background-color: #FFE2B8;
+
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+.column{
+	float: left;
+	width: 260px;
+	height: 300px;
+	padding: 20 px;
+	margin:0;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	width 480 px;
+
+}
+section {
+	overflow: auto;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear:both;
+	height: 0;
+}
+
+
+
+
