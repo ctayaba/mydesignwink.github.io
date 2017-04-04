@@ -22,9 +22,10 @@ nav, .logo {
 #intro {
 	background:url(../images/mars1_inspiration.jpg) no-repeat;
 	background-size:cover;
-	height: 50vh;
+	height: 65vh;
 	padding: 10em 0 0;
   font-weight:bold;
+  font-size: 30px;
 }
 
 header {
@@ -59,7 +60,7 @@ a:hover {
 } 
 
 #two_column {
-    background-color: #aaaaaa;
+    background-color: #FFFFFF;
     border: 1px gray solid;
     padding: 20px;
     float: left;
@@ -86,8 +87,6 @@ padding: 20px;
 #inspiration img {
   width: 30%;
 }
-
-
 
 #three_column {
     background-color: #FFFFFF;
