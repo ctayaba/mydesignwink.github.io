@@ -36,24 +36,21 @@ header {
 	
 }
 nav {
-	
-	  background-color: #000000 ;
-	  font-family: Playfair, serif;
-	  position: relative;
-    left: 100px;
-    text-align: center;
-    width:100%;
-  }
+	background-color: #000000;
+	font-family: Playfair, serif;
+	text-align: center;
+	float: right;
+	}
 
 a {
 	background-color: #000000;
-	position: relative;
+	/* position: relative; */
 	color: white;
 	text-decoration: none;
-	display: block;
-	float:left;
-	left: 100px;
-	padding: 8px;
+	/* display: block; */
+	/* float:left; */
+	/* left: 100px; */
+	/* padding: 8px; */
 }
 a:hover {
   background-color: #FFFFFF;
@@ -96,36 +93,16 @@ padding: 20px;
     width: 100%;
 }
 
-#left {
-    background-color: #FFFFFF;
-    border: 1px white solid;
-    padding: 20px;
+aside {
+    background-color: #e8e8e8;
+    /* border: 1px white solid; */
+    padding: 2em;
     float:left;
-    width: 33%;
+    width: 49%;
+    margin: .5%;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
-#left img {
-	width: 100%;
-}
-#middle {
-    background-color: #FFFFFF;
-    border: 1px white solid;
-    padding: 20px;
-    float:left;
-    width: 33%;
-}
-#middle img{
-	width: 100%;
-}
-
-#right{
-    background-color: #FFFFFF;
-    border: 1px white solid;
-    padding: 20px;
-    float:left;
-    width: 33%;
-}
-
-#right img{
+aside img {
 	width: 100%;
 }
 .clearfix:after {
