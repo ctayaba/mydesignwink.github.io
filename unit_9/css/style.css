@@ -13,49 +13,56 @@ section {
 	padding: 0% 0;
 }
 nav {
-	padding: 0%;
   float: right;
+  padding-right: 2%;
 }
+
 .clearfix:after {
   visibility: hidden;
   display: block;
   height: 0;
+  clear:both;
 }
 
 #logo {
 	float:left;
-  padding-bottom: 5%;
-
+  padding-bottom: : 60%;
+  position: relative;
 }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear:both;
+}
+
+#navigation {
+  float: right;
+}
+
+
+#intro {
+	background:url(../images/mars1_inspiration.jpg) no-repeat;
+	background-size: cover;
+	height: 57vh;
+	padding: 16% 0 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+header {
+  background-color: #FFFFFF;
+  border: 1px grey solid;
+  padding: 2%;
+  width: 100%;
+	}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
   height: 0;
 }
-
-#intro {
-	background:url(../images/mars1_inspiration.jpg) no-repeat;
-	background-size: cover;
-	height: 65vh;
-	padding: 16% 0 0;
-  font-weight: bold;
-  font-size: 1em;
-}
-
-header {
-  background-color: #FFFFFF;
-  border: 2px grey solid;
-  padding: 2%;
-  width: 100%;
-	
-}
-nav {
-	background-color: #;
-	font-family: Playfair, serif;
-	text-align: center;
-	float: right;
-  padding: 5px 5px 5px 5px;
-	}
 
 a {
 	background-color: #ffffff;
@@ -149,6 +156,9 @@ aside img {
     float: none;
     width: auto;
   }
+}
+#footer {
+  padding-top: 5px;
 }
 
 
